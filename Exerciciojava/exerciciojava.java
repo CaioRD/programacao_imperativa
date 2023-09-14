@@ -7,10 +7,10 @@ import java.util.Scanner;
 
 public class exerciciojava {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
 
         System.out.print("Quantas notas você deseja para tirar a média: ");
-        int quantidadeNotas = scanner.nextInt();
+        int quantidadeNotas = s.nextInt();
 
         // Verifica se a quantidade de notas é válida (maior que 0)
         if (quantidadeNotas <= 0) {
@@ -23,7 +23,7 @@ public class exerciciojava {
         // Lê as notas e verifica se estão no intervalo válido (0 a 10)
         for (int i = 0; i < quantidadeNotas; i++) {
             System.out.print("Digite a " + (i + 1) + "° nota : ");
-            double nota = scanner.nextDouble();
+            double nota = s.nextDouble();
 
             if (nota < 0 || nota > 10) {
                 System.out.println("Nota inválida. Digite uma nota entre 0 e 10.");
@@ -56,6 +56,6 @@ public class exerciciojava {
             }
         }
 
-        scanner.close();
+        s.close();
     }
 }
