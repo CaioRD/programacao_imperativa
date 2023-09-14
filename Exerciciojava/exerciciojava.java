@@ -1,3 +1,8 @@
+//Leia  um vetorde  notas, em  que  a quantidade éespecificadapelo  usuário.
+ //Em seguida, calcule a média dasnotas digitadas. 
+ //Finamente, exiba o conjunto das notas maiores do que a média calculada, bem como e conjunto de notas menores do que a média.
+ //OBS: Só devem ser aceitos valores válidos durante a leitura (0 a 10) para cada nota.
+
 import java.util.Scanner;
 
 public class exerciciojava {
